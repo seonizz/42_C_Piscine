@@ -6,7 +6,7 @@
 /*   By: yoohwang <yoohwang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 14:18:40 by yoohwang          #+#    #+#             */
-/*   Updated: 2026/08/17 14:18:42 by yoohwang         ###   ########.fr       */
+/*   Updated: 2026/08/18 02:29:11 by yoohwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,5 @@ int	*ft_range(int min, int max)
 		tab[i] = min + i;
 		i++;
 	}
-	returm (tab);
+	return (tab);
 }

@@ -6,7 +6,7 @@
 /*   By: yoohwang <yoohwang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 17:22:01 by yoohwang          #+#    #+#             */
-/*   Updated: 2026/08/17 18:00:56 by yoohwang         ###   ########.fr       */
+/*   Updated: 2026/08/18 02:29:21 by yoohwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	if (!arr)
 		return (-1);
 	i = 0;
-	while (i < max)
+	while (i < size)
 	{
 		arr[i] = min + i;
 		i++;

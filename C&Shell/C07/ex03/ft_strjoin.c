@@ -6,7 +6,7 @@
 /*   By: yoohwang <yoohwang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 18:01:18 by yoohwang          #+#    #+#             */
-/*   Updated: 2026/08/17 22:30:29 by yoohwang         ###   ########.fr       */
+/*   Updated: 2026/08/18 02:29:30 by yoohwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,11 +80,3 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	dst[k] = '\0';
 	return (dst);
 }
-
-/**
- * @brief
- * strs 안의 문자열 size개를 이어붙이되, 사이사이에 sep을 끼워 넣은 새 문자열
- * -> malloc으로 만들어 반환.
- * 총 크기 = (모든 strs[i]의 길이 합) + (sep 길이) x (size - 1) + 1
- * 
- */

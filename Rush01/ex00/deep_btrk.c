@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   deep_btrk.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ginapark <ginapark@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yoohwang <yoohwang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/09 17:26:10 by ginapark          #+#    #+#             */
-/*   Updated: 2026/08/09 17:26:15 by ginapark         ###   ########.fr       */
+/*   Updated: 2026/08/12 02:07:11 by yoohwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ int	check_duplicated_val(int buildings[4][4], int row, int col, int num)
 		if (buildings[i][col] == num)
 			return (0);
 		i++;
-	}
 	return (1);
 }
 

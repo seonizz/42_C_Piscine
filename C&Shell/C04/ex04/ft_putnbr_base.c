@@ -6,7 +6,7 @@
 /*   By: yoohwang <yoohwang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/11 22:19:09 by yoohwang          #+#    #+#             */
-/*   Updated: 2026/08/11 22:42:00 by yoohwang         ###   ########.fr       */
+/*   Updated: 2026/08/12 01:51:55 by yoohwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,3 @@ void	ft_putnbr_base(int nbr, char *base)
 		ft_putnbr_base(n / len, base);
 	write(1, &base[n % len], 1);
 }
-/**
- * @brief 정수 nbr을 base 에 채워진 문자열대로 처리
- * while (nbr) 동안 -라면 음수 처리, 
- */

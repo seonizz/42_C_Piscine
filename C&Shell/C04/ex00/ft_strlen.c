@@ -6,7 +6,7 @@
 /*   By: yoohwang <yoohwang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/09 23:31:24 by yoohwang          #+#    #+#             */
-/*   Updated: 2026/08/10 00:00:36 by yoohwang         ###   ########.fr       */
+/*   Updated: 2026/08/12 01:51:27 by yoohwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,7 @@ int	ft_strlen(char *str)
 	int	i;
 
 	i = 0;
-	while(str[i])
+	while (str[i])
 		i++;
 	return (i);
 }
-
-/**
- * @brief
- * 1. str 문자 개수 세기
- * 2. 반환하기
- * @param
- */

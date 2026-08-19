@@ -6,7 +6,7 @@
 /*   By: yoohwang <yoohwang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/18 00:00:29 by yoohwang          #+#    #+#             */
-/*   Updated: 2026/08/18 02:29:33 by yoohwang         ###   ########.fr       */
+/*   Updated: 2026/08/19 17:22:25 by yoohwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ static char	*ft_it_base(int nbr, char *base, int base_len)
 
 	n = nbr;
 	len = ft_nbr_len(n, base_len);
-	res = (char *)malloc(sizeof(char) * (len + 1));
+	res = malloc(sizeof(char) * (len + 1));
 	if (!res)
 		return (NULL);
 	res[len] = '\0';
